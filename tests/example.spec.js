@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 const TARGET_URL = 'https://www.swifttranslator.com/';
 
-// ============================================================================
+
 
 async function getFields(page) {
   await page.waitForLoadState('networkidle');
